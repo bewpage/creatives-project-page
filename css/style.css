@@ -56,8 +56,8 @@
       .container .row .col-12 {
         width: 100%; } }
 
-#welcome {
-  background-image: url("../img/layer_96.png");
+#section__header {
+  background-image: url("../img/layer_96_opt.png");
   width: 100%;
   height: 1082px;
   background-size: cover;
@@ -98,7 +98,14 @@
     transform: scaleX(1); }
 
 .header__main-nav__brand {
-  width: 100px; }
+  width: 25%;
+  line-height: 115px; }
+
+.header__social {
+  overflow: hidden;
+  line-height: 115px; }
+  .header__social i {
+    margin-right: 20px; }
 
 .header__jumbotron {
   height: 450px;
