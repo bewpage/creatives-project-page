@@ -1,0 +1,60 @@
+//about agency blue-box
+.section__bluebox {
+  background: #11749E;
+  width: 100%;
+  height: 738px;
+}
+
+//text slogan
+.section__bluebox__slogan{
+  position: relative;
+  height: 340px;
+  color: #ffffff;
+  font-size: 2em;
+  line-height: 340px;
+  text-align: center;
+  .section__bluebox__text__decor{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    font-size: 7em;
+    font-weight: 900;
+    opacity: 0.2;
+  }
+}
+
+.feature__box{
+  height: 285px;
+  position: relative;
+  color: #ffffff;
+  .circle__blue{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    //border: 1px solid red;
+    border-radius: 50%;
+    background: #2e85aa;
+    //opacity: 0.5;
+    height: 140px;
+    width: 140px;
+
+    i{
+      position: absolute;
+      top: 33%;
+      left: 33%;
+    }
+  }
+
+  h3{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+  p{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 0.8em;
+    text-align: justify;
+  }
+}

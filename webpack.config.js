@@ -1,4 +1,5 @@
 //Konfiguracja Webpack
+
 module.exports = {
     entry: "./js/app.jsx",
     output: { filename: "./js/out.js" },
@@ -18,3 +19,4 @@ module.exports = {
         ]
     }
 }
+

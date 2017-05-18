@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+  .container .row {
+    margin: 0 5px; }
+    .container .row:before, .container .row:after {
+      content: "";
+      display: block;
+      clear: both; }
+    .container .row [class*="col-"] {
+      float: left;
+      min-height: 1px;
+      width: 100%;
+      padding: 0 5px;
+      margin-right: 2%; }
+      .container .row [class*="col-"]:last-child {
+        margin-right: 0%; }
+    @media only screen and (min-width: 768px) {
+      .container .row .col-1 {
+        width: 6.5%; } }
+    @media only screen and (min-width: 768px) {
+      .container .row .col-2 {
+        width: 15%; } }
+    @media only screen and (min-width: 768px) {
+      .container .row .col-3 {
+        width: 23.5%; } }
+    @media only screen and (min-width: 768px) {
+      .container .row .col-4 {
+        width: 32%; } }
+    @media only screen and (min-width: 768px) {
+      .container .row .col-5 {
+        width: 40.5%; } }
+    @media only screen and (min-width: 768px) {
+      .container .row .col-6 {
+        width: 49%; } }
+    @media only screen and (min-width: 768px) {
+      .container .row .col-7 {
+        width: 57.5%; } }
+    @media only screen and (min-width: 768px) {
+      .container .row .col-8 {
+        width: 66%; } }
+    @media only screen and (min-width: 768px) {
+      .container .row .col-9 {
+        width: 74.5%; } }
+    @media only screen and (min-width: 768px) {
+      .container .row .col-10 {
+        width: 83%; } }
+    @media only screen and (min-width: 768px) {
+      .container .row .col-11 {
+        width: 91.5%; } }
+    @media only screen and (min-width: 768px) {
+      .container .row .col-12 {
+        width: 100%; } }
+
+#welcome {
+  background-image: url("../img/layer_96.png");
+  width: 100%;
+  height: 1082px;
+  background-size: cover;
+  background-position: center; }
+
+.header__main-nav {
+  border: 1px solid red;
+  height: 115px;
+  color: #ffffff; }
+
+.header__main-nav__menu li {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  width: 90px;
+  margin-left: 1.5em; }
+  .header__main-nav__menu li a {
+    border: 1px solid red;
+    line-height: 115px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white; }
+  .header__main-nav__menu li a:before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #11749e;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; }
+  .header__main-nav__menu li a:hover:before {
+    border-bottom: 5px solid #11749e;
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); }
+
+.header__main-nav__brand {
+  width: 100px; }
+
+.header__jumbotron {
+  border: 1px solid red;
+  height: 450px;
+  width: 100%; }
+  .header__jumbotron h1 {
+    margin: 0;
+    padding-top: 225px;
+    font-weight: bold;
+    font-size: 110px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .header__jumbotron p {
+    color: #11749E;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-size: 24px; }
+
+.section__bluebox {
+  background: #11749E;
+  width: 100%;
+  height: 738px; }
+
+.section__bluebox__slogan {
+  position: relative;
+  height: 340px;
+  color: #ffffff;
+  font-size: 2em;
+  line-height: 340px;
+  text-align: center; }
+  .section__bluebox__slogan .section__bluebox__text__decor {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    font-size: 7em;
+    font-weight: 900;
+    opacity: 0.2; }
+
+.feature__box {
+  height: 285px;
+  position: relative;
+  color: #ffffff; }
+  .feature__box .circle__blue {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    border-radius: 50%;
+    background: #2e85aa;
+    height: 140px;
+    width: 140px; }
+    .feature__box .circle__blue i {
+      position: absolute;
+      top: 33%;
+      left: 33%; }
+  .feature__box h3 {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase; }
+  .feature__box p {
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 0.8em;
+    text-align: justify; }
+
+* {
+  font-family: 'Open Sans', sans-serif; }
+
+.float__left {
+  float: left; }
+
+.float_right {
+  float: right; }
+
+.borderbox {
+  border: 1px solid red; }
+
+/*# sourceMappingURL=style.css.map */
