@@ -64,7 +64,6 @@
   background-position: center; }
 
 .header__main-nav {
-  border: 1px solid red;
   height: 115px;
   color: #ffffff; }
 
@@ -75,7 +74,6 @@
   width: 90px;
   margin-left: 1.5em; }
   .header__main-nav__menu li a {
-    border: 1px solid red;
     line-height: 115px;
     font-size: 16px;
     text-decoration: none;
@@ -103,7 +101,6 @@
   width: 100px; }
 
 .header__jumbotron {
-  border: 1px solid red;
   height: 450px;
   width: 100%; }
   .header__jumbotron h1 {
@@ -177,8 +174,5 @@
 
 .float_right {
   float: right; }
-
-.borderbox {
-  border: 1px solid red; }
 
 /*# sourceMappingURL=style.css.map */
