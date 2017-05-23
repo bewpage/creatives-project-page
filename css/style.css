@@ -72,12 +72,13 @@
   display: inline-block;
   list-style-type: none;
   width: 90px;
-  margin-left: 1.5em; }
+  margin-left: 1.5em;
+  transition: all 1s ease; }
   .header__main-nav__menu li a {
     line-height: 115px;
     font-size: 16px;
     text-decoration: none;
-    color: white; }
+    color: #ffffff; }
   .header__main-nav__menu li a:before {
     content: "";
     position: absolute;
@@ -96,6 +97,10 @@
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1); }
+.header__main-nav__menu li:hover {
+  opacity: 0.7;
+  background: #333333;
+  letter-spacing: 0.03rem; }
 
 .header__main-nav__brand {
   width: 25%;
@@ -466,7 +471,9 @@
 .form__message::placeholder {
   color: #ffffff; }
 
-.button-contact {
+#button-contact {
+  border: none;
+  cursor: pointer;
   width: 225px;
   height: 65px;
   line-height: 65px;

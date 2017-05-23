@@ -16,17 +16,20 @@
 
 .header__main-nav__menu {
   //width: 30%;
+
   li{
     position: relative;
     display: inline-block;
     list-style-type: none;
     width: 90px;
     margin-left: 1.5em;
+    transition: all 1s ease;
+
     a{
       line-height: 115px;
       font-size: 16px;
       text-decoration: none;
-      color: white;
+      color: #ffffff;
     }
     //underline active link effect
     a:before {
@@ -49,6 +52,12 @@
       -webkit-transform: scaleX(1);
       transform: scaleX(1);
     }
+  }
+
+  li:hover{
+    opacity: 0.7;
+    background: #333333;
+    letter-spacing: 0.03rem;
   }
 }
 

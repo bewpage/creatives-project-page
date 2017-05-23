@@ -21,7 +21,7 @@
                            </div>
                             <div>
                                 <ul class="header__main-nav__menu float__left">
-                                    <li><a href="#">Home</a></li>
+                                    <li class="borderbox"><a href="#">Home</a></li>
                                     <li><a href="#">Pages</a></li>
                                     <li><a href="#">Features</a></li>
                                     <li><a href="#">Extensions</a></li>
@@ -278,17 +278,17 @@
                         <div class="contact__text__decor">C</div>
                     </div>
                 </div>
-                <form action="#" method="post">
+                <form id='myForm' action="/" method="post">
                     <fieldset>
                         <div class="row">
                             <div class="col-4 ">
-                                <input class="form__input" type="text" name="firstname" placeholder="Name">
+                                <input id="name" class="form__input" type="text" name="fname" placeholder="Name">
                             </div>
                             <div class="col-4 ">
-                                <input class="form__input" type="email" name="email" placeholder="Email">
+                                <input id="email" class="form__input" type="email" name="email" placeholder="Email">
                             </div>
                             <div class="col-4 ">
-                                <input class="form__input" type="number" name="phone" placeholder="Phone">
+                                <input id="phone" class="form__input" type="tel" name="phone" placeholder="Phone">
                             </div>
                         </div>
                         <div class="row">
@@ -299,7 +299,7 @@
                         <div class="row">
                             <div class="col-4"></div>
                             <div class="col-4 borderbox">
-                                <div class="button-contact">Submit</div>
+                                <button id="button-contact" type="button"  value="Submit">Submit</button>
                             </div>
                             <div class="col-4"></div>
                         </div>
@@ -321,7 +321,8 @@
         </footer>
 
     <!--<div id="app"></div>-->
-    <script src="js/out.js"></script>
+    <!--<script src="js/out.js"></script>-->
+    <script src="js/script.js"></script>
     <script src="https://use.fontawesome.com/c0636e06aa.js"></script>
 </body>
 </html>
