@@ -14,6 +14,10 @@
   position: fixed;
   width: 100%;
   transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
 }
 
 .f-nav-fix {
@@ -33,6 +37,10 @@
     width: 90px;
     margin-left: 1.5em;
     transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
 
     a{
       line-height: 115px;
@@ -52,8 +60,14 @@
       visibility: hidden;
       transform: scaleX(0);
       -webkit-transform: scaleX(0);
-      -webkit-transition: all 0.3s ease-in-out 0s;
+      -moz-transform: scaleX(0);
+      -o-transform: scaleX(0);
+      -ms-transform: scaleX(0);
       transition: all 0.3s ease-in-out 0s;
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      -moz-transition: all 0.3s ease-in-out 0s;
+      -o-transition: all 0.3s ease-in-out 0s;
+      -ms-transition: all 0.3s ease-in-out 0s;
     }
     a:hover:before{
       border-bottom: 5px solid #11749e;
@@ -73,6 +87,7 @@
 
 //brand logo
 .header__main-nav__brand {
+  margin-left: 20px;
   width: 20%;
   line-height: 115px;
 }
@@ -84,4 +99,86 @@
   i{
     margin-right: 20px;
   }
+}
+
+//burger menu
+.toggle-nav {
+  display: none;
+}
+
+
+//responsive menu
+@media screen and (max-width: 1150px) {
+  .header__main-nav__brand {
+    width: auto;
+    margin-left: 20px;
+    line-height: 115px;
+  }
+
+  .toggle-nav {
+    display: none;
+  }
+
+  .header__social {
+    display: none;
+    //  overflow: hidden;
+    //  line-height: 115px;
+    //  i{
+    //    margin-right: 20px;
+    //  }
+    //}
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .header__main-nav__brand {
+    width: auto;
+    margin-left: 20px;
+    line-height: 115px;
+  }
+  .header__main-nav__menu {
+    display: none;
+  }
+  .toggle-nav {
+    margin-right: 20px;
+    display: block;
+    float: right;
+    line-height: 115px;
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.3em;
+    }
+  }
+
+
+}
+
+
+@media screen and (max-width: 860px) {
+
+  .header__main-nav__menu{
+    display: none;
+  }
+
+  .header__main-nav__brand {
+    width: auto;
+    margin-left: 20px;
+    line-height: 115px;
+  }
+
+  .toggle-nav {
+    display: block;
+    margin-right: 20px;
+    float: right;
+    line-height: 115px;
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.3em;
+    }
+  }
+
 }
